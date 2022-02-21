@@ -1,0 +1,65 @@
+/*reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.container{
+    width: 60%;
+    margin: 30px auto;
+}
+
+/*utlities*/
+.bg-pink{
+    background-color: #E579E6;
+}
+.bg-yellow{
+    background-color: #E1D67A;
+}
+.bg-blue{
+    background-color: #0087FF;
+}
+.bg-purple{
+    background-color: #8801FE;
+}
+.bg-lightblue{
+    background-color: #ABCFE7;
+}
+
+/*elementi della pagina*/
+.logo{
+    height: 130px;
+}
+#centre-img{
+    margin-top: 30px;
+    height: 500px;
+}
+main{
+    height: 600px;
+}
+.info{
+    height: 10%;
+    margin-bottom: 20px;
+}
+.box{
+    width: 50%;
+    height: 500px;
+    float: left;
+}
+.box.side-box{
+    width: calc(25% - 20px);
+}
+.left{
+    margin-right: 20px;
+}
+.right{
+    margin-left: 20px;
+}
+footer{
+    height: 70px;
+}
