@@ -14,7 +14,8 @@ body{
     display: table;
     clear: both;
 }
-.overlay{
+.overlay::after{
+    content: '';
     position: absolute;
     top: 0;
     right: 0;
