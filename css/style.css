@@ -26,6 +26,9 @@
 .bg-lightblue{
     background-color: #ABCFE7;
 }
+main{
+    height: 600px;
+}
 
 /*elementi della pagina*/
 body{
@@ -89,21 +92,28 @@ nav ul li a{
 .banner-text p{
     font-weight: 300;
 }
-
-
-
-
-
-
-
-
-main{
-    height: 600px;
-}
-.info{
-    height: 10%;
+.title{
+    margin-top: 35px;
     margin-bottom: 20px;
+    line-height: 2em;
 }
+.title h2{
+    font-size: 2.5em;
+}
+.title p{
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #969696;
+}
+
+
+
+
+
+
+
+
+
 .box{
     width: 50%;
     height: 500px;
